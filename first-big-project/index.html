@@ -209,7 +209,6 @@
 
                     <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
                     <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-
                     <li class="nav-item">
                         <button class="btn btn-outline-success nav-btn" id="githubInfoBtn">
                             <i class="fab fa-github"></i></button>
@@ -246,8 +245,9 @@
                         style="cursor: pointer; border: 1px solid #ddd; padding: 20px; text-align: center;">
                         <div class="icon"><i class="fas fa-cogs" style="font-size: 2rem; color: #6DB33F;"></i></div>
                         <h5>Automation</h5>
-                        <p>Apps with AI & automated solutions. <button type="button"
-                                class="btn btn-outline-success nav-btn" onclick="openTestModal()">details</button></p>
+                        <p>Apps with AI & automated solutions.
+                            <button class="btn btn-outline-success nav-btn" onclick="openTestModal()">details</button>
+                        </p>
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -308,14 +308,16 @@
     <div class="social-popup" id="socialPopup" title="Nous contactez">
         <span class="close-btn" id="closePopup">&times;</span>
         <div class="popup-content">
-            <h5>contactez moi ici !</h5>
+            <h5>contactez nous ici !</h5>
             <div class="social-links">
                 <a href="https://github.com/alpha947" title="Github" target="_blank"><i class="fab fa-github"></i></a>
                 <a href="https://bitbucket.org/" title="Bitbucket" target="_blank"><i class="fab fa-bitbucket"></i></a>
+                <a href="https://bitbucket.org/" title="Bitbucket" target="_blank"><i class="fab fa-twitter"></i></a>
                 <a href="https://wa.me/" target="_blank"><i class="fab fa-whatsapp"></i></a>
                 <a href="https://google.com/" target="_blank"><i class="fab fa-google"></i></a>
-                <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
-                <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/alphaamadou.diallo.3762/" target="_blank"><i
+                        class="fab fa-facebook"></i></a>
             </div>
         </div>
     </div>
@@ -351,7 +353,7 @@
                     </form>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Fermer</button>
                     <button type="submit" class="btn btn-success" form="contactForm">Envoyer</button>
                 </div>
             </div>
@@ -388,6 +390,7 @@
             <p>© 2024 CTC. Tout droit reservé.</p>
         </div>
     </footer>
+
     <script>
         const socialBtn = document.getElementById('socialBtn');
         const socialPopup = document.getElementById('socialPopup');
