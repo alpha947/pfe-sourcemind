@@ -11,7 +11,8 @@ package gn.dgd.dis.pod.enumeration;
  * @GitHub: https://github.com/alpha947
  */
 public enum TokenType {
-    ACCESS("access-token"), REFRESH("refresh-token");
+    ACCESS("access-token"),
+    REFRESH("refresh-token");
 
     private final String value;
 

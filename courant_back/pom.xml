@@ -8,11 +8,11 @@
 		<version>3.4.0</version>
 		<relativePath/>
 	</parent>
-	<groupId>gn.dgd.dlrii</groupId>
+	<groupId>gn.dgd.dis</groupId>
 	<artifactId>pod</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>securedoc</name>
-	<description>Actes reglementaires et administratifs</description>
+	<name>Power-Outrage-Detector</name>
+	<description>Detection des coupures du courant</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
