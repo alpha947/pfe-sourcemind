@@ -1,5 +1,7 @@
 #Configuration standard de l'application sans profil
 spring:
+  application:
+    name: detection_de_presence_du_courant
   profiles:
     active: ${ACTIVE_PROFILE:dev}
   jackson:
@@ -59,6 +61,12 @@ spring:
             required: true
     verify:
       host: ${VERIFY_EMAIL_HOST}
+      #debut des configurations thymeleaf
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    cache: false
+    #fin des configurations thymeleaf
 server:
   port: ${CONTAINER_PORT:8080}
   error:
@@ -69,3 +77,18 @@ server:
 jwt:
   expiration: ${JWT_EXPIRATION}
   secret: ${JWT_SECRET}
+#  configuration du banner
+#  spring.banner.image.location=classpath:banner.gif
+#  spring.banner.image.width=  //TODO
+#  spring.banner.image.height= //TODO
+#  spring.banner.image.margin= //TODO
+#  spring.banner.image.invert= //TODO
+#Configuration du serveur Twilio
+# configuration twilio
+twilio:
+  accountSid: ACacf5cc8e252a9f6c05cef7063358468e
+  authToken: 80de8fa7bd2c46d8eb344871a9614c50
+twilio.phoneNumber: +14433907095
+alpha:
+  destination:
+    phoneNumber: +224626929178
