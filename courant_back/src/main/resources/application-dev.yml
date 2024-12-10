@@ -1,0 +1,31 @@
+#Fichier de configuration du profil de developpement de l'applicaiton
+
+#Base de donnees
+POSTGRESQL_USERNAME: postgres
+POSTGRESQL_PASSWORD: Alp01011997
+POSTGRESQL_HOST: localhost
+POSTGRESQL_PORT: 5432
+POSTGRESQL_DATABASE: actes_reglementaires_de_ladministration
+
+#Server
+CONTAINER_PORT: 8085
+ACTIVE_PROFILE: dev
+
+#Email pro
+#EMAIL_HOST: smtp.gmail.com
+#EMAIL_PORT: 587
+#EMAIL_ID: dialloalphaamadou947@gmail.com
+#EMAIL_PASSWORD: 2000Alpha
+#VERIFY_EMAIL_HOST: http://localhost:5173
+
+#Configuration avec les realites de la Direction Generale des douanes Guineenes
+EMAIL_HOST: 192.168.4.134
+EMAIL_PORT: 22
+EMAIL_ID: alphaamadou.diallo@dgd.gov.gn
+EMAIL_PASSWORD: Douane2023
+VERIFY_EMAIL_HOST: http://localhost:5173, http://localhost:5174
+
+JWT_EXPIRATION: 432_000_000
+JWT_SECRET: ${SECRET}
+SECRET: SECRETorgspringframeworksecuritywebauthenticationAbstractAuthenticationProcessingFilterdoFilterAbstractAuthenticationProcessingFilterSECRETorgspringframeworksecuritywebauthenticationAbstractAuthenticationProcessingFilterdoFilterAbstractAuthenticationProcessingFilterSECRETorgspringframeworksecuritywebauthenticationAbstractAuthenticationProcessingFilterdoFilterAbstractAuthenticationProcessingFilterSECRETorgspringframeworksecuritywebauthenticationAbstractAuthenticationProcessingFilterdoFilterAbstractAuthenticationProcessingFilterSECRETorgspringframeworksecuritywebauthenticationAbstractAuthenticationProcessingFilterdoFilterAbstractAuthenticationProcessingFilter
+
