@@ -77,13 +77,6 @@ server:
 jwt:
   expiration: ${JWT_EXPIRATION}
   secret: ${JWT_SECRET}
-#  configuration du banner
-#  spring.banner.image.location=classpath:banner.gif
-#  spring.banner.image.width=  //TODO
-#  spring.banner.image.height= //TODO
-#  spring.banner.image.margin= //TODO
-#  spring.banner.image.invert= //TODO
-#Configuration du serveur Twilio
 # configuration twilio
 twilio:
   accountSid: ACacf5cc8e252a9f6c05cef7063358468e

@@ -1,6 +1,6 @@
 #Base de donnees en ligne
-POSTGRESQL_USERNAME: user_douane
-POSTGRESQL_PASSWORD: mot_de_passe_douane
+POSTGRESQL_USERNAME: user_test_courant
+POSTGRESQL_PASSWORD: un_mot_de_passe
 POSTGRESQL_HOST: 192.168.1.209
 POSTGRESQL_PORT: 5432
 POSTGRESQL_DATABASE: ara_online

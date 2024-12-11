@@ -38,5 +38,5 @@ public class User {
     private boolean credentialsNonExpired;
     private boolean enabled;
     private boolean mfa;
-
+ 
 }

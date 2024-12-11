@@ -5,7 +5,7 @@ POSTGRESQL_USERNAME: postgres
 POSTGRESQL_PASSWORD: Alp01011997
 POSTGRESQL_HOST: localhost
 POSTGRESQL_PORT: 5432
-POSTGRESQL_DATABASE: actes_reglementaires_de_ladministration
+POSTGRESQL_DATABASE: detection_de_la_presence_du_courant
 
 #Server
 CONTAINER_PORT: 8085
@@ -21,9 +21,9 @@ ACTIVE_PROFILE: dev
 #Configuration avec les realites de la Direction Generale des douanes Guineenes
 EMAIL_HOST: 192.168.4.134
 EMAIL_PORT: 22
-EMAIL_ID: alphaamadou.diallo@dgd.gov.gn
+EMAIL_ID: dg@ctcapp.org
 EMAIL_PASSWORD: Douane2023
-VERIFY_EMAIL_HOST: http://localhost:5173, http://localhost:5174
+VERIFY_EMAIL_HOST: http://localhost:5173
 
 JWT_EXPIRATION: 432_000_000
 JWT_SECRET: ${SECRET}
