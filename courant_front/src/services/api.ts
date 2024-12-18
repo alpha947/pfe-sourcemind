@@ -1,6 +1,6 @@
 import { DailyOutages, MonthlyOutages, LocationOutages, OutageStatistics } from '../types/Analytics';
 
-const API_URL = 'http://localhost:8080/api';
+const API_URL = 'http://localhost:8086/api';
 
 export const fetchDailyOutages = async (startDate: string, endDate: string): Promise<DailyOutages[]> => {
   const response = await fetch(`${API_URL}/analytics/daily?startDate=${startDate}&endDate=${endDate}`);
