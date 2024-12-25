@@ -38,8 +38,7 @@ public class BatteriesWebSoketController {
             String line;
             while ((line = reader.readLine()) != null) {
                 // verificaiton du brachement de l'ordinateur
-                if (line.contains("BatteryStatus") && line.contains("2")) {
-                    // si BatteryStatus== 2; l'ordinateur est branché 
+                if (line.contains("BatteryStatus") && line.contains("2")) { 
                     return false; // Pas de coupure d'électricite
                 }
             }
