@@ -71,11 +71,11 @@ public class SignalRBatteryController {
                                     "3. Ouverture de compte    \n";
             } else if ("*947#".equals(codeInput)) {
                     return "Bienvenue aux Douanes Guinéenes \n"+
-                                            "1. Verification courant        \n"+
-                                            "2. Verification Server         \n"+                           
-                                            "3. Verification Ondulaire      \n"+
-                                            "4. Verification temperature    \n"+
-                                            "5. Verification Stockage       \n";
+                                    "1. Verification courant        \n"+
+                                    "2. Verification Server         \n"+
+                                    "3. Verification Ondulaire      \n"+
+                                    "4. Verification temperature    \n"+
+                                    "5. Verification Stockage       \n";
             }
             else if ("".equals(codeInput)) {
                 return "Il faut au moins saisir un code USSD pour tester le Systeme";

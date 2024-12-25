@@ -1,5 +1,4 @@
 import React from 'react';
-import type { WebSocketStatus } from '../../utils/websocket';
 
 interface ConnectionStatusProps {
   isConnected: boolean;
