@@ -1,9 +1,0 @@
-#Base de donnees
-POSTGRESQL_USERNAME: postgres
-POSTGRESQL_PASSWORD: Alp01011997
-POSTGRESQL_HOST: localhost
-POSTGRESQL_PORT: 5432
-POSTGRESQL_DATABASE: detection_de_la_presence_du_courant
-server:
-  port: 8086
-#Server
