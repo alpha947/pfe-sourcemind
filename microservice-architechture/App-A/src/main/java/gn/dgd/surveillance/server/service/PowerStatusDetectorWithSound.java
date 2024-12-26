@@ -21,7 +21,7 @@ public class PowerStatusDetectorWithSound {
     @Autowired
     private SimpMessagingTemplate messagingTemplate;
 
-    @Scheduled(fixedRate = 2000)
+    @Scheduled(fixedRate = 500)
     public void checkPowerStatus() {
         try {
             ProcessBuilder processBuilder = new ProcessBuilder("powershell", "Get-CimInstance -ClassName Win32_Battery");
