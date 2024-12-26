@@ -1,5 +1,5 @@
 package gn.dgd.surveillance.server.configuration;
-
+ 
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.messaging.simp.config.MessageBrokerRegistry;
@@ -20,3 +20,4 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
         registry.addEndpoint("/power-status-websocket").setAllowedOrigins("*").withSockJS();
     }
 }
+
