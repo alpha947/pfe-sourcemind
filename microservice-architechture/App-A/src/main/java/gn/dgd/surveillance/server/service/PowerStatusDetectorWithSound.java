@@ -1,6 +1,5 @@
 package gn.dgd.surveillance.server.service;
-
-// src/main/java/gn/dgd/surveillance/server/se
+ 
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.messaging.simp.SimpMessagingTemplate;
@@ -10,7 +9,7 @@ import javazoom.jl.player.advanced.AdvancedPlayer;
 import javazoom.jl.player.advanced.PlaybackEvent;
 import javazoom.jl.player.advanced.PlaybackListener;
 import java.io.InputStream;
-import java.io.BufferedReader;
+import java.io.BufferedReader; 
 import java.io.IOException;
 import java.io.InputStreamReader;
 
@@ -68,7 +67,7 @@ public class PowerStatusDetectorWithSound {
     private void startAlert() {
         try {
             // Charger le fichier audio
-            InputStream inputStream = getClass().getResourceAsStream("/danger.mp3");
+            InputStream inputStream = getClass().getResourceAsStream("/danger.mp3"); 
             // Charger le lecteur audio
             player = new AdvancedPlayer(inputStream);
 
