@@ -1,0 +1,24 @@
+<!-- appB/src/main/resources/templates/index.html -->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Surveillance de l'Alimentation</title>
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="container">
+        <h1>Surveillance de l'Alimentation</h1>
+        <div id="status-indicator" class="status-indicator unknown">
+            Statut Inconnu
+        </div>
+    </div>
+    
+    <audio id="alert-audio" src="/danger.mp3" loop></audio>
+
+    <script src="https://cdn.jsdelivr.net/npm/sockjs-client@1/dist/sockjs.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/stompjs@2.3.3/lib/stomp.min.js"></script>
+    <script th:src="@{/js/status.js}"></script>
+</body>
+</html>

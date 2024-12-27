@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  appA:
+    build:
+      context: ./appA
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080" # Port exposé pour App A
+    restart: always
+    networks:
+      - power-network
+
+  appB:
+    build:
+      context: ./appB
+      dockerfile: Dockerfile
+    ports:
+      - "9090:9090" # Port exposé pour App B
+    depends_on:
+      - appA
+    restart: always
+    networks:
+      - power-network
+
+networks:
+  power-network:
+    driver: bridge
