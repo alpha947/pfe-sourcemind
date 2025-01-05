@@ -1,5 +1,5 @@
 # appB/Dockerfile
 FROM openjdk:17-jdk-alpine
 VOLUME /tmp
-COPY appB.jar /appB.jar
-ENTRYPOINT ["java","-jar","/appB.jar"]
+COPY appb.jar /appb.jar
+ENTRYPOINT ["java","-jar","/appb.jar"]
